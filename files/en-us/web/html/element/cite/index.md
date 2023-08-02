@@ -43,7 +43,7 @@ In the context of the `<cite>` element, a creative work that might be cited coul
 - A blog post or comment
 - A forum post or comment
 - A tweet
-- A Facebook post
+- A social media post
 - A written or oral statement
 - And so forth.
 
