@@ -177,7 +177,7 @@ Assistive software has shortcuts to list all links on a page. However, strong li
 
 Anchor elements are often abused as fake buttons by setting their `href` to `#` or [`javascript:void(0)`](/en-US/docs/Web/URI/Reference/Schemes/javascript) to prevent the page from refreshing, then listening for their `click` events.
 
-These bogus `href` values cause unexpected behavior when copying/dragging links, opening links in a new tab/window, bookmarking, or when JavaScript is loading, errors, or is disabled. They also convey incorrect semantics to assistive technologies, like screen readers.
+These bogus `href` values cause unexpected behavior when copying/dragging links, opening links in a new tab/window, bookmarking, or when JavaScript is loading, has errors, or is disabled. They also convey incorrect semantics to assistive technologies, like screen readers.
 
 Use a {{HTMLElement("button")}} instead. In general, **you should only use a hyperlink for navigation to a real URL**.
 
