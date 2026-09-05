@@ -378,8 +378,8 @@ For details about `mailto:` URLs, such as including a subject or body, see [Emai
 `tel:` link behavior varies with device capabilities:
 
 - Cellular devices autodial the number.
-- Most operating systems have programs that can make calls, like Skype or FaceTime.
-- Websites can make phone calls with {{domxref("Navigator/registerProtocolHandler", "registerProtocolHandler")}}, such as `web.skype.com`.
+- Most operating systems have programs that can make calls, like FaceTime.
+- Websites can make phone calls with {{domxref("Navigator/registerProtocolHandler", "registerProtocolHandler")}}.
 - Other behaviors include saving the number to contacts, or sending the number to another device.
 
 See {{RFC(3966)}} for syntax, additional features, and other details about the `tel:` URL scheme.
